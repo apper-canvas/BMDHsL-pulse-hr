@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Moon, Menu, X, Bell, User, LogOut } from 'lucide-react';
 import Home from './pages/Home';
+import Employees from './pages/Employees';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -154,6 +155,7 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
+            <Route path="/employees" element={<Employees />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>
