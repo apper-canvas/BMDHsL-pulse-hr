@@ -1,7 +1,7 @@
 {
-  "name": "pulse-hr",
+  "name": "attendance-management-system",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,14 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "apexcharts": "^4.5.0",
-    "date-fns": "^4.1.0",
-    "framer-motion": "^10.16.4",
-    "lucide-react": "^0.344.0",
     "react": "^18.2.0",
-    "react-apexcharts": "^1.7.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0"
+    "react-router-dom": "^6.16.0",
+    "lucide-react": "^0.279.0",
+    "date-fns": "^2.30.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
